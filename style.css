@@ -1,0 +1,327 @@
+		  
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap');
+
+
+
+
+
+.contain{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 4px;
+        max-width: 1128px; 
+        padding: 50px 0px;    
+}
+
+.contain::after{
+                display: block;
+                content: "";
+                clear: both;
+}
+
+.contain .top-left{
+    width: 50%;
+    float: left;
+    margin-top: -50px;
+    margin-left: -5px;
+}
+
+.contain .top-right{
+    width: 50%;
+    float: right;
+    text-align: center;
+    margin-top: -60px;
+    margin-right: 60px;
+    margin-top: -50px;
+}
+
+.contain .top-right ul{
+                    margin: 0 auto;
+}
+
+
+.contain .top-right li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;  
+    text-align: center; 
+}
+
+/* icon  hover start */
+.contain .top-right ul li:nth-child(5){
+    
+
+    border-left: 1px solid rgb(0 0 0/ 60%);
+    
+}
+
+.contain .top-right ul li a{
+    text-decoration: none;
+    color: rgb(0 0 0/ 60%);
+    padding: 10px 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;  
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.contain .top-right ul li:nth-child(5):hover{
+    padding: 5px; 
+    border-radius: 10px;
+    background-color:rgba(158, 158, 158, 0.6) ;
+    transition: 0.5s;
+}
+
+
+
+.contain .top-right ul li:nth-child(6):hover{
+            color: rgb(221, 240, 240);
+            background-color: rgb(160, 209, 248);
+            border-radius: 20px;
+            border: 1px solid rgb(181, 248, 248);
+            transition: 0.3s;
+            position: relative;
+}
+/* hover end */
+
+.photo img{
+    
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+
+.lih h1{
+    margin-left: -10px;
+    margin-top: -500px ;       
+    font-size:56px;              
+    color: #8f5849;
+    font-weight: 100; 
+    width: 600px;	
+}
+
+
+
+.box input[type=text], .box input[type=password] {
+    margin-left: -10px;
+    display: block;
+    margin-top: 40px;
+    cursor: cell;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+
+}
+
+.box input[type=submit]{
+        width: 100%;
+        padding: 20px;
+        max-width: 400px ;
+        color: aliceblue;
+        border-radius: 55px;
+        border: none;
+        cursor: pointer;
+        background-color: #2977c9;
+        margin-left: -10px;
+        transition: 0.5;
+}
+
+
+
+
+.box input[type=submit]:hover{
+
+            background-color: #006097 ;
+
+}	
+
+ .box a {
+        margin-left: -10px;
+        text-decoration: none;
+        color: rgb(65, 62, 62);
+ }
+
+
+.box p{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin-left: -10px;
+}
+
+
+
+ .gl a span{
+    text-decoration: none;
+    width: 100px;
+    max-width: 400px;
+    box-sizing: border-box;
+    color: rgba(0,0,0,0.6);
+    border-radius: 55px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: inherit;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    padding: 6px 8px;
+    height: 30px;
+    margin-left: -10px; 
+    transition: 0.5;
+   
+ }
+
+ .gl span:nth-child(4){
+    
+        color: #ceccc7;
+    border: 1px solid blue;
+    padding: 5px 5px;
+ }
+
+ .gl a span:hover{
+
+    background-color: #ceccc7;
+
+ }
+
+ 
+
+
+ .text{
+    background-color: #F3F2F0;
+    height: 200px;
+   position: relative;
+
+ }
+
+
+
+
+
+.tty .wd{
+        width: 220px;
+        font-size: 35px;
+        margin-top: -40px;
+        margin-left: -50px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+.ppt{
+    margin-left: 250px;
+    text-decoration: none;
+    margin-top: -215px;
+    font-size:small;
+
+}
+
+.ppt span{
+    display: block;
+    list-style: none;
+    
+    
+}
+
+.see{
+    list-style: none;
+    width: 18%;
+    padding: 2px 3px;
+    color: #2977c9;
+    text-align: center;
+    max-width: 400px ;
+    border-radius: 55px;
+    border: 1px solid #2977c9;
+    cursor: pointer;
+    margin-left: -10px;
+    transition: 0.5s;
+}
+
+.see:hover{
+   
+    background-color: #abcbec;
+}
+
+.extra li{
+    list-style: none;
+    width: 18%;
+    padding: 2px 2px;
+    text-align: center;
+    max-width: 400px ;
+    border: 1px solid gray;
+    color: aliceblue;
+    border-radius: 55px;
+    cursor: pointer;
+    margin-left: -10px;
+
+}
+
+.extra li:hover{
+    background-color: #ceccc7;
+}
+
+.extra1 li , .extra2 li{
+
+    list-style: none;
+    width: 18%;
+    padding: 2px 2px;
+    text-align: center;
+    max-width: 400px ;
+    border: 1px solid gray;
+    color: aliceblue;
+    border-radius: 55px;
+    cursor: pointer;
+    margin-left: -10px;
+}
+ 
+.extra1 li:hover{
+    background-color: #ceccc7;
+}
+
+.extra2 li:hover{
+    background-color: #ceccc7;
+}
+
+.extra3{
+    list-style: none;
+    width: 18%;
+    padding: 2px 2px;
+    text-align: center;
+    max-width: 400px ;
+    border: 1px solid gray;
+    color: aliceblue;
+    border-radius: 55px;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: -150px;
+    float: left;
+    transition: 0.7s;
+
+}
+
+.extra3 li:hover{
+    background-color: #ceccc7;
+}
+
+.pro ul li{
+    list-style: none;
+    width: 18%;
+    padding: 2px 2px;
+    text-align: center;
+    max-width: 400px ;
+    border: 1px solid gray;
+    color: aliceblue;
+    border-radius: 55px;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: -150px;
+    float: left;
+    transition: 0.7s;
+}
